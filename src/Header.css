@@ -1,0 +1,306 @@
+body{
+  background-color: #F3F3FB;
+}
+
+  .quiz-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the quiz card horizontally */
+    margin-bottom: 2px;
+    height:600;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+    /* line-height: 2px; */
+}
+
+
+
+  /* .quiz-card1 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto; 
+    margin-top: 2px; 
+    
+    width:10px;
+  } */
+
+  .item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+  }
+  
+  .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #cecdcd; /* Blue color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .circle.completed {
+    background-color: #141515; /* Green color for completed items */
+    border-color: #0a0a0a;
+  }
+  
+  .tick-mark {
+    color: rgb(242, 249, 242); /* Black color for the tick mark */
+    font-size: 30px; /* Adjust the font size as needed */
+    /* width: 26px;
+    height: 26px;
+    left: 10px;
+    top: 6px; */
+
+    left: 20.83%;
+right: 16.67%;
+top: 29.17%;
+bottom: 29.17%;
+  }
+  
+  
+  
+  .card-paragraph {
+    font-size: 13px;
+    line-height: 0.5; /* Adjust line height as needed */
+    margin-bottom: 10px;
+  }
+  
+  /* Header.css */
+/* ... your existing styles ... */
+
+.progress {
+    margin: 20px auto;
+    width: 80%; /* Adjust the width as needed */
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow for rounded corners */
+  }
+  
+  .progress-bar {
+    height: 100%;
+    /* width: 0;  */
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+
+  .left-align {
+    /* display: flex;
+    margin-left: 5px; */
+
+    display: inline-flex;
+    margin-left: 1px;
+   
+  }
+
+  .tour-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .expand-icon {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #007bff; /* Blue color */
+  }
+  
+  /* Rest of your styles */
+  .skip-text {
+    background-color: #f7f7f7;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: #007bff; /* Blue color */
+    border: 1px solid #007bff;
+  }
+  
+  .skip-text:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+    
+/* Add this to your Header.css file */
+body {
+  font-family: Arial, sans-serif; /* Change the font family as needed */
+}
+
+.quiz-card,
+.quiz-card1 {
+  width: 800px; /* Increase the card width as needed */
+  height: auto;
+  padding: 20px; /* Add padding to the cards for spacing */
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  border-radius: 14px; /* Add rounded corners to the cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  margin-bottom: 1px; /* Add spacing between the cards */
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expandable-icon {
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: transform 0.3s;
+}
+
+.expandable-icon.expanded {
+  transform: rotate(90deg);
+}
+
+.item {
+  margin-bottom: 12px; /* Adjust the margin between items */
+}
+
+.item-text {
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflow if necessary */
+  text-overflow: ellipsis;
+}
+
+.circle.completed {
+  background-color: #5cb85c;
+}
+
+
+
+/* Style for the completed item */
+.circle.completed {
+  background-color: #1e1e1e; /* Adjust the color as needed */
+}
+
+/* Add this to your Header.css file */
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expandable-image {
+  width: 24px; /* Increase the width */
+  height: 24px; 
+  cursor: pointer;
+  margin-left: 140px;
+
+}
+
+.expandable-image img {
+  font-weight: bold; /* Apply bold style to the image */
+}
+
+/* Add this to your Header.css file */
+.progress-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Add spacing as needed */
+}
+
+.fixed-value {
+  width: 60px; 
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px; 
+  font-family: 'Merriweather', serif;
+}
+
+.progress {
+  flex-grow: 1;
+  height: 10px; /* Adjust progress bar height */
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+
+
+/* Add this to your Header.css file */
+.get-started-button {
+  display: flex;
+  align-items: center;
+  margin-left: 701px;
+  margin-top: 10px;
+}
+
+.get-started-button button {
+  padding: 10px 15px;
+  background-color: #1E2434;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.items-count {
+  background-color: rgb(255, 253, 253);
+  color: rgb(17, 16, 16);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+
+
+/* .partition-line {
+  height: 1px;
+  width: 105%; 
+  background-color: rgba(0, 0, 0, 0.2); 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+} */
+
+.partition-line {
+  height: 1px;
+  width: 111.8%; 
+  background-color: rgba(0, 0, 0, 0.2); 
+  margin-top: 10px; 
+  margin-bottom: 40px; 
+  margin-left: -6%; /* Adjust the value as needed */
+}
+
+
+
+.item-text {
+  line-height: 3; /* Adjust the line height value as needed */
+}
+
+
+
+.skip-link {
+  display: inline-block;
+  margin-top: 10px; /* Adjust spacing as needed */
+  color: #666; /* Adjust color as needed */
+  /* text-decoration: underline;  */
+  /* cursor: pointer;  */
+}
